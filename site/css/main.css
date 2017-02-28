@@ -1,0 +1,7 @@
+@media screen
+and (max-device-width : 360px)
+and (max-device-height : 640px) {
+body {
+    background-color: aqua;
+}
+}
