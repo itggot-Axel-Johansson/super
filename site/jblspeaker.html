@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>hej</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="containerheader">
+    <div class="header">
+        <i onclick="vänstermeny()" class="material-icons">menu</i>
+        <h1>Bluesmarttooth</h1>
+        <i onclick="högerlista()" class="material-icons">more_vert</i>
+    </div>
+    <div class="devices">
+        <a href="lgtv.html">LG TV</a>
+        <a href="index.html">ONEPLUSONE</a>
+        <a class="bottomborder" href="#">JBL SPEAKER</a>
+        <a href="ipad4.html">IPAD 4</a>
+    </div>
+</div>
+<div class="caster">
+    <i class="material-icons">phone_android</i>
+    <div class="namnbyte"><div class="textmitten"> <input class="skrivtext" type="text" placeholder="ONEPLUSONE"></div>
+        <i class="material-icons">mode_edit</i></div>
+</div>
+<div class="bytdevice">
+    <i class="material-icons">cast_connected</i>
+    <div class="textmitten"><p2>Currently casting to LG TV</p2></div>
+</div>
+<div>
+    <div class="bytdevice">
+        <i class="material-icons">bluetooth_connected</i>
+        <div class="textmitten"><p2>Bluetooth Connected</p2></div>
+    </div>
+</div>
+<div class="bytdevice">
+    <i class="material-icons">equalizer</i>
+    <div class="textmitten"><p2>Equalizer</p2></div>
+</div>
+<div class="volym">
+    <i class="material-icons">volume_off</i>
+    <input class="volymändrare" type="range" width="100px" min="0" max="100" value="0" tabindex="0">
+    <i class="material-icons">volume_up</i>
+</div>
+<div class="nowplaying">
+    <p3>Darude</p3><p3>Sandstorm</p3>
+</div>
+<div class="stängavochpå">
+    <i class="material-icons">skip_previous</i>
+    <i class="material-icons">pause</i>
+    <i class="material-icons">skip_next</i>
+</div>
+
+<div class="innan efter">
+    <div class="listavänster">
+        <div class="backgroundcolor">
+            <i onclick="vänstermeny()" class="material-icons">arrow_back</i>
+        </div>
+
+        <div class="contentlista">
+            <div class="listasaker">
+                <i class="material-icons">add</i>
+                <div class="textmitten"><p2>Add a device</p2>
+                </div>
+            </div>
+            <div class="listasaker">
+                <i class="material-icons">info</i>
+                <div class="textmitten"><p2>Info</p2>
+                </div>
+            </div>
+            <div class="listasaker">
+                <i class="material-icons">cast_connected</i>
+                <div class="textmitten"><p2>Cast to another device</p2>
+                </div>
+            </div>
+            <div class="listasaker">
+                <i class="material-icons">devices</i>
+                <div class="textmitten"><p2>Devices</p2>
+                </div>
+            </div>
+            <div class="listasaker2">
+                <div class="textmitten"><p>LG TV</p>
+                </div>
+                <i class="material-icons">delete</i>
+            </div>
+            <div class="listasaker2">
+                <div class="textmitten"><p>ONEPLUSONE</p>
+                </div>
+                <i class="material-icons">delete</i>
+            </div>
+            <div class="listasaker2">
+                <div class="textmitten"><p>JBL SPEAKER</p>
+                </div>
+                <i class="material-icons">delete</i>
+            </div>
+            <div class="listasaker2">
+                <div class="textmitten"><p>IPAD 4</p>
+                </div>
+                <i class="material-icons">delete</i>
+            </div>
+        </div>
+    </div>
+    <div onclick="tabort()" class="genomskenlig"></div>
+</div>
+<div class="innan2 efter2">
+
+    <div class="listahöger">
+        <div class="ihögerlista"><i class="material-icons">bluetooth_connected</i>
+            <div class="paddingleft">
+                <div class="knappmittens"><button>hej</button></div>
+            </div>
+        </div>
+        <div class="ihögerlista"><i class="material-icons">bluetooth_connected</i>
+            <div class="paddingleft">
+                <div class="knappmittens"><button>hej</button></div>
+            </div>
+        </div>
+        <div class="ihögerlista"><i class="material-icons">bluetooth_connected</i>
+            <div class="paddingleft">
+                <div class="knappmittens"><button>hej</button></div>
+            </div>
+        </div>
+        <div class="ihögerlista"><i class="material-icons">bluetooth_disabled</i>
+            <div class="paddingleft">
+                <div class="knappmittens2"><button>hej</button></div>
+            </div>
+        </div>
+        <div class="ihögerlista"><i class="material-icons">settings_bluetooth</i>
+            <div class="paddingleft">
+                <div class="knappmittens"><p2>Settings</p2></div>
+            </div>
+        </div>
+        <div class="ihögerlista"><i class="material-icons">exit_to_app</i>
+            <div class="paddingleft">
+                <div class="knappmittens"><p2>Exit to app</p2></div>
+            </div>
+        </div>
+    </div>
+
+    <div onclick="tabort2()" class="genomskenlig2"></div>
+</div>
+<script src="./js/js.js"></script>
+</body>
+</html>
